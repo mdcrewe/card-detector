@@ -3,7 +3,7 @@ import cv2
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 
-class Stream:
+class VideoStream:
   def __init__(self,res,fr):
     self.camera = PiCamera()
     self.camera.resolution = res
