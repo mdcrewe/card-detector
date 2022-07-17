@@ -265,7 +265,7 @@ def draw_results(image, qCard):
     
     return image
   
-def flattener(image, pts, w, h):
+def flatten(image, pts, w, h):
 
     temp_rect = np.zeros((4,2), dtype = "float32")
     
